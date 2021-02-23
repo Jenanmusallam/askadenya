@@ -1,0 +1,109 @@
+$First-color: #fffded;
+$Second-color: #02594d;
+$Third-color: #d9e5db;
+$Fourth-color: #ffde9f;
+$Fifth-color: #d5d3c1;
+
+.container-Server {
+    padding: 3rem;
+    background-color: $Second-color;
+
+    * {
+        box-sizing: border-box;
+        margin: auto;
+    }
+
+    h1 {
+        text-align: center;
+        color: $Third-color;
+        padding-bottom: 2rem;
+    }
+
+    h3 {
+        color: $Second-color;
+    }
+
+    .column {
+        float: left;
+        width: 25%;
+        padding: 0 10px;
+    }
+
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Style the counter cards */
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 16px;
+        text-align: center;
+        background-color: #f1f1f1;
+        // border-radius: 4px;
+    }
+}
+
+/* Responsive columns */
+@media screen and (max-width: 1000px) {
+    .container-Server {
+        // background-color: #f5bab5;
+        padding: 2rem;
+
+        .column {
+            padding: 0 5px;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            // color: #f5bab5;
+            font-size: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 840px) {
+
+    .container-Server {
+
+        .column {
+            width: 50%;
+        }
+    }
+}
+
+@media screen and (max-width: 464px) {
+
+    .container-Server {
+        padding: 1rem;
+
+        .column {
+            width: 50%;
+
+            h3 {
+                font-size: 0.8rem;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .container-Server {
+        padding: 2rem;
+
+        .column {
+            width: 100%;
+
+            h3 {
+                font-size: 1rem;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,63 @@
+.cart {
+  background-color: #d9e5db;
+  .card {
+    position: relative;
+    height: "100%";
+    min-height: 375px;
+    display: "flex";
+    flex-direction: "column";
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding-bottom: 1.5rem;
+    .cardMedia {
+      padding-top: 56.25%;
+    }
+
+    .CardActions {
+      position: absolute;
+      bottom: 0;
+    }
+    .cardContent {
+      flex-grow: 1;
+    }
+  }
+
+  .card-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .Button {
+    color: #02594d;
+  }
+  .SaveButton {
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+    margin-left: 1rem;
+    color: #ffedff;
+    background-color: #02594d;
+    &:hover {
+      background-color: #02594db4;
+    }
+  }
+  .Quantity {
+    width: 84px;
+    // margin: 1rem 0;
+  }
+  .hr {
+    margin-top: 2rem;
+    height: 2px;
+    background-color: #02594d;
+  }
+  .chickout-div {
+    text-align: center;
+  }
+}
+
+.empty {
+  max-width: 300px;
+  padding: 3rem 0;
+  margin: auto;
+  text-align: center;
+  .img-empty {
+    width: 100%;
+  }
+}

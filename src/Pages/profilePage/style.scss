@@ -1,0 +1,47 @@
+.center-profile {
+  text-align: center;
+  max-width: 40rem;
+  width: 90%;
+  margin: auto;
+  .profileb {
+    background-color: #fcf8f5;
+    margin: 4rem 0;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px 2px rgba($color: #000000, $alpha: 0.2);
+    .profile-pic {
+      border-radius: 1rem;
+      background-image: url("https://images.squarespace-cdn.com/content/v1/57a638c5ebbd1acee619193b/1529434540139-1JT72PUBY0MOAPB9VBHE/ke17ZwdGBToddI8pDm48kAI8vb-WPdIdYYCfizVhTKQUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc4-bqIMdPlpcIn9ZUR5fP0pz41_tPfyOOqV4UWTX9kfZmWYMppK9k9kx68RqBn3F0/food+background.png?format=1500w");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 15rem;
+    }
+    .imgBorder {
+      text-align: center;
+      margin-top: -10rem;
+      img {
+        width: 10rem;
+        height: 10rem;
+        border-radius: 100%;
+      }
+    }
+    h4 {
+      margin: 0.3rem;
+    }
+    .btn {
+      padding: 0.8em 1rem;
+      font-size: 0.81rem;
+      color: white;
+      margin: 1rem 0.5rem 2rem;
+    }
+    .EditBtn {
+      background-color: #02594d;
+    }
+  }
+  .HTable {
+    background-color: #fcf8f5;
+    margin: 4rem 0;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px 2px rgba($color: #000000, $alpha: 0.2);
+  }
+}

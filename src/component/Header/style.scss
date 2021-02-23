@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.root {
+  position: sticky;
+  top: 0;
+  z-index: 102;
+  flex-grow: 1;
+  .Toolbar {
+    display: flex;
+    align-content: center;
+  }
+  .logo {
+    flex-grow: 1;
+  }
+  .color {
+    color: #02594d;
+  }
+
+  .header {
+    background-color: #fffded;
+  }
+  .CL {
+    display: none;
+    height: 3.5rem;
+    margin-top: 0.3rem;
+  }
+  .fullL {
+    height: 3.5rem;
+    margin-top: 0.3rem;
+  }
+  .cartbtn {
+    margin-left: 0.5rem;
+  }
+  .JoinUsBtn {
+    background-color: #02594d;
+    color: #fffded;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    &:hover {
+      background-color: #02594dc9;
+    }
+  }
+  @media (max-width: 600px) {
+    .CL {
+      display: inline;
+    }
+    .fullL {
+      display: none;
+    }
+  }
+}

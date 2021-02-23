@@ -1,0 +1,157 @@
+body {
+  background-color: #d9e5db;
+}
+.center-profile {
+  text-align: center;
+  max-width: 40rem;
+  width: 90%;
+  margin: auto;
+  .profileb {
+    background-color: #fcf8f5;
+    margin: 1rem 0;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 5px 1px #aaa;
+    // border: 2px #02594d solid;
+
+    .profile-cover {
+      width: 100%;
+      height: 6rem;
+      object-fit: cover;
+    }
+
+    .profile-pic {
+      display: grid;
+      place-items: center;
+      padding-top: 1rem;
+      background-image: url("https://images.squarespace-cdn.com/content/v1/57a638c5ebbd1acee619193b/1529434540139-1JT72PUBY0MOAPB9VBHE/ke17ZwdGBToddI8pDm48kAI8vb-WPdIdYYCfizVhTKQUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc4-bqIMdPlpcIn9ZUR5fP0pz41_tPfyOOqV4UWTX9kfZmWYMppK9k9kx68RqBn3F0/food+background.png?format=1500w");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 15rem;
+    }
+    .imgBorder {
+      text-align: center;
+      margin-top: -7rem;
+      img {
+        width: 10rem;
+        height: 10rem;
+        border-radius: 100%;
+      }
+    }
+
+    .btn {
+      // background-color: #D9E5DB;
+      padding: 1em;
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+      // border-radius: 15px 15px;
+      // border: 1px solid #02594D;
+      font-size: 0.75em;
+      background-color: #02594d !important;
+      color: white !important;
+    }
+    .btn-t {
+      display: flex;
+      justify-content: sp;
+    }
+
+    .editorsBtn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .Change {
+        margin: 1rem;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s;
+
+        p {
+          font-size: 0.8rem;
+          transition: 0.5s;
+          opacity: 0;
+        }
+
+        &:hover {
+          transform: scale(1.1);
+          cursor: pointer;
+
+          .lineProf-s,
+          p {
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    img {
+      height: 100%;
+      transition: 0.3s;
+    }
+  }
+}
+.profile-t {
+  border-radius: 10px;
+
+  grid-gap: 1rem;
+  padding: 2rem;
+  margin: 1.5rem 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 90% 10%;
+  grid-template-columns: 90% 10%;
+  .text-t {
+    font-size: 1.4rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .edit-ta {
+    border-left: 0.5em;
+  }
+  .done-list-co .profile-t span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+.edit {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 680px) {
+  .imgBorder img {
+    margin-top: 50px;
+  }
+
+  .center-profile {
+    .profileb {
+      img {
+        height: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: 681px) and (max-width: 1024px) {
+  .about {
+    img {
+      margin-top: 7em;
+    }
+  }
+  .profileb {
+    min-height: 35vh;
+  }
+}

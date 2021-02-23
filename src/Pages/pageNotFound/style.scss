@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .img {
+    max-width: 20rem;
+    max-height: 20rem;
+  }
+
+  .btn {
+    margin: 2rem;
+  }
+}

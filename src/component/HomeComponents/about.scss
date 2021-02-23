@@ -1,0 +1,42 @@
+.about-container {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 4rem;
+  margin-top: -5rem;
+  .about-h {
+    font-size: 2.2rem;
+    color: #02594d;
+  }
+  .articleDiv {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 2rem;
+
+    .text-about {
+      font-size: 1.3rem;
+    }
+  }
+  .img-fluid {
+    width: 100%;
+    height: 100%;
+    border-radius: 0rem 10rem;
+    background-image: url("https://previews.123rf.com/images/bialasiewicz/bialasiewicz1708/bialasiewicz170800704/83779548-veggie-meeting-of-friends-at-communal-table-in-restaurant-with-raw-healthy-food.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: "990px") {
+  .about-container {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 4rem;
+    margin-top: 0rem;
+    .articleDiv {
+      display: grid;
+      grid-template-columns: 3fr;
+      grid-template-rows: 1fr 1fr;
+      grid-gap: 2rem;
+    }
+  }
+}

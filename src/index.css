@@ -1,0 +1,79 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #d9e5db;
+}
+
+* {
+  text-decoration: none;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    sans-serif !important; */
+  font-family: Helvetica, Arial, sans-serif;
+}
+a {
+  color: #02594d;
+}
+/* .MuiFormLabel-root.Mui-focused {
+  color: #02594d !important;
+} */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d8d2c6;
+  box-shadow: 8px #02594d;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: #02594dda;
+}
+.MuiFormLabel-root.Mui-focused {
+  color: #02594d !important;
+}
+.MuiFilledInput-underline:after {
+  border-color: #02594d !important;
+}
+
+/* .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: "red" !important;
+}
+
+.MuiOutlinedInput-root fieldset {
+  border-color: "white" !important;
+}
+.MuiOutlinedInput-root:hover fieldset {
+  border-color: "white" !important;
+}
+.MuiOutlinedInput-root .Mui-focused fieldset {
+  border-color: "yellow" !important;
+} */
+
+.MuiFormLabel-root.Mui-focused {
+  color: #02594d !important;
+}
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #02594d !important;
+}
+
+.MuiCheckbox-colorPrimary.Mui-checked {
+  color: #02594d !important;
+}
+.Breadcrumbs {
+  margin: 1rem;
+}
+.ourGreen {
+  background-color: #02594d !important;
+}
+.marginLoading {
+  height: 80vh;
+}

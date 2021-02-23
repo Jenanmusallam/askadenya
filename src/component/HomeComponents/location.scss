@@ -1,0 +1,73 @@
+/* Test  */
+
+$First-color: #fffded;
+$Second-color: #02594d;
+$Third-color: #d9e5db;
+$Fourth-color: #ffde9f;
+$Fifth-color: #d5d3c1;
+
+.container-Location {
+  * {
+    box-sizing: border-box;
+  }
+
+  padding: 2rem 0;
+  background-color: #ffff;
+
+  h2,
+  p {
+    font-size: 2.2rem;
+    color: $Second-color;
+    padding: 1rem;
+    background-color: #ffff;
+
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    background-color: #ffff;
+
+  }
+
+  .row {
+    box-sizing: border-box;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  /* Style the counter cards */
+  .card {
+
+    text-align: center;
+  }
+}
+
+/* Responsive columns */
+
+@media screen and (max-width: 664px) {
+  .container-Location {
+    .column {
+      width: 100%;
+    }
+
+    h2,
+    p {
+      padding: 0;
+    }
+
+    .row {
+      width: 90%;
+      flex-direction: column-reverse;
+    }
+  }
+
+}
